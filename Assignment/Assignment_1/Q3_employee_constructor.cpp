@@ -24,10 +24,10 @@ struct Employee{
 	void setId(int id){
 		this->id=id;
 	}
-		void setName(char *name){
+	void setName(char *name){
 		strcpy(this->name,name);
 	}
-		void setSalary(double salary){
+	void setSalary(double salary){
 		this->salary=salary;
 	}
 	void display()
